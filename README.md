@@ -14,10 +14,16 @@ How many hours did it take you to complete this assignment (estimate)?
 40
 
 Did you collaborate with any other students/TAs/Professors? If so, tell us who and in what capacity.  
+
 - one per row, add more if needed
 
-
 Did you use any external resources (you do not have to cite in class material)? (Cite them below)  
-- one row per resource
+
+
+- https://www.bilibili.com/video/BV1tNpbekEht?spm_id_from=333.788.videopod.sections&vd_source=40758ae7bfa5fefaffbd35a848382d10&p=12
+
+- https://www.bilibili.com/video/BV1tNpbekEht?spm_id_from=333.788.videopod.sections&vd_source=40758ae7bfa5fefaffbd35a848382d10&p=14
+
+- https://www.cnblogs.com/HIT-LYT/p/4278401.html
 
 
