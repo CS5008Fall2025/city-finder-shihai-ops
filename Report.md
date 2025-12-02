@@ -69,6 +69,7 @@ For both these questions, are you are free to use what you did as the last secti
 
 144. Binary Tree Preorder Traversal
 
+```c
 void preOrder(struct TreeNode* root, int *arr, int *returnSize){
     if(root!=NULL){
         arr[(*returnSize)++]=root->val;
@@ -84,3 +85,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize) {
     return arr;
     free(arr);
 }
+```
