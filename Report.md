@@ -19,6 +19,8 @@ Fill out these report questions.
 
 3. Explain in your own words what that means for larger graphs when trying to find the shortest distance. 
 
+  If we need to find the shortest distance in a very large and sparse graph, using a Heap/Priority Queue is the best choice since  ($E \approx V$) at this case, the time complexity is close to $O(V \log V)$. If the graph is very dense, in this situation, the  ($E \approx V^2$). The time complexity using heap is close to $O(V^2 \log V)$. In a dense graph, using array with time complexity of $O(V^2)$ could be a better solution. 
+
 
 ## Deeper Thinking
 4. For this assignment, you didn't need the most "efficient" set of data structures (for example, a heap wasn't required). However, think on the scale of google/apple maps - they have to deal with millions of vertices and edges. What data structures would you use to store the graph? Why? Somethings to consider - would you be able to store the entire graph at a time? Could you break it up into smaller pieces? How would you do that? Would there be advantages to caching/memoization of paths? You are free to explore your thoughts on this subject/reflect on various ideas. Other than a realization of some scalability of problems, there isn't a wrong answer. 
