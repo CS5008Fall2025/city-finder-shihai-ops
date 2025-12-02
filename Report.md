@@ -61,4 +61,8 @@ For both these questions, are you are free to use what you did as the last secti
 
 1. Select one technical interview question (this module or previous) from the [technical interview list](https://github.com/CS5008-khoury/Resources/blob/main/TechInterviewQuestions.md) below and answer it in a few sentences. You can use any resource you like to answer the question.
 
+   Discuss what a binary tree is. What is a full and what is a complete binary tree?
+
+    A binary Tree is a hierarchical data structure in which each node has at most two children: a left child and a right child. It begins with a root. In a full binary tree, every node except the bottom has 2 children, and the bottom of the tree has 0 children. A complete binary tree has 2 children, except for the bottom and the bottom could have 2, 1, or 0 children. The left branch must be filled before going to the right. You strictly cannot start a new row until the previous one is full, and you cannot skip a spot in the current row. For example, you cannot have only 1 child in a left side node and still have a child at more right side of the tree.
+
 2. Select one coding question (this module or previous) from the [coding practice repository](https://github.com/CS5008-khoury/Resources/blob/main/LeetCodePractice.md) and include a c file with that code with your submission. Make sure to add comments on what you learned, and if you compared your solution with others. 
