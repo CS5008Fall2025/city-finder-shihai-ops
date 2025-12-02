@@ -48,7 +48,8 @@ It falls under the classification of NP-Hard problems.
 
 8. Provide some examples of fields / problems that use TSP.
 
-    Delivery, to optimize and find out the best route for delivery man to deliver things efficiently.
+    Package Delivery, to optimize and find out the best route for delivery man to deliver things efficiently.
+   
     Ubereats, to optimize the distance between restaurants, passengers, available cars and destinations in a good sequence and pick the right car to fulfill these orders to achieve the highest efficiency. 
 
 > [!TIP]
