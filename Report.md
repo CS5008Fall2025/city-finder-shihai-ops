@@ -4,9 +4,18 @@ Fill out these report questions.
 
 1. What is the difference between a directed and undirected graph?
 
+  The edges of an undirected graph do not have direction. The edge can works in both ways. If an edge connects Vertex A and Vertex B, you can traverse from A to B and from B to A. On the other hand, directed graph's edge has a specific direction You can go from A to B, but cannot move from B to A without another edge with the opposite direction.
+
 2. What is the Big O of Dijkstra's algorithm.... 
-   * Assuming you used an array (or list) to store the vertices.
+ * Assuming you used an array (or list) to store the vertices.
+
+   
+     The Big O complexity of Dijkstra using array or list to store the vertices is $O(V^2)$.
+   
    * Assuming you used a heap / priority queue to store the vertices.
+     
+     The Big O complexity of Dijkstra using heap / priority queue to store the vertices is $O(E \log V)$.
+     
 
 3. Explain in your own words what that means for larger graphs when trying to find the shortest distance. 
 
