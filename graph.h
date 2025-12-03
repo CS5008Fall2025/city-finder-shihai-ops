@@ -8,11 +8,14 @@
 #define MAX_NAME 50
 #define INF 999999
 
+// Define struct of cities
 typedef struct {
     char name[MAX_NAME];
     int id;
 } City;
 
+/* Define struct of graphs that contains cities, number of cities, 
+the maximum capacity that the current memory can store, and the adjacency matrix */
 typedef struct {
     City *cities;
     int numCities;
