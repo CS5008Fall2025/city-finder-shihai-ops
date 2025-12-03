@@ -4,6 +4,7 @@
 #include "graph.h"
 #include "dijkstra.h"
 
+// Print instructions
 void printHelp() {
     printf("Commands:\n");
     printf("\tlist - list all cities\n");
@@ -12,13 +13,14 @@ void printHelp() {
     printf("\texit - exit the program\n");
 }
 
+// Check if there are 3 attributes being input by the user
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         printf("Usage: ./map.out <vertices> <distances>\n");
         return 1;
     }
 
-
+    // Initialize and allocate memory, load cities and distance. 
     Graph *g = initGraph(100);
     loadCities(g, argv[1]);
     loadDistances(g, argv[2]);
@@ -32,11 +34,11 @@ int main(int argc, char *argv[]) {
     while (1) {
         printf("Where do you want to go today? ");
         
-
+        // Get input from the user
         if (fgets(input, sizeof(input), stdin) == NULL) break;
-
+        // Delete end of line
         input[strcspn(input, "\r\n")] = 0;
-
+        // Check if the input is empty
         if (strlen(input) == 0) continue;
 
         if (strcmp(input, "exit") == 0) {
@@ -47,6 +49,7 @@ int main(int argc, char *argv[]) {
         } else if (strcmp(input, "list") == 0) {
             listCities(g);
         } else {
+            // Get city name
             char *city1 = strtok(input, " ");
             char *city2 = strtok(NULL, " ");
             if (city1 != NULL && city2 != NULL) {
@@ -65,6 +68,7 @@ int main(int argc, char *argv[]) {
             }
         }
     }
+    // Free memory
     freeGraph(g);
     return 0;
 }
