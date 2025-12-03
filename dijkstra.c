@@ -81,7 +81,7 @@ void findShortestPath(Graph *g, int startID, int endID) {
     }
 
 
-    // free storage
+    // free memory
     free(dist);
     free(visited);
     free(parent);
