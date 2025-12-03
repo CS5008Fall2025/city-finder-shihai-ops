@@ -3,6 +3,6 @@
 
 #include "graph.h"
 
-void findShortestPath(Graph *g, int startID, int endID);
+void findShortestPath(Graph *g, int startID, int endID);  //Call findStortestPath fucnction
 
 #endif
